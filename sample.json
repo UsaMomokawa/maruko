@@ -1,0 +1,37 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "散歩しようワン :dog:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "できなかった :no_good:",
+						"emoji": true
+					},
+					"value": "no",
+					"action_id": "actionId-0"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "できた :ok_woman:",
+						"emoji": true
+					},
+					"value": "yes",
+					"style": "primary",
+					"action_id": "actionId-1"
+				}
+			]
+		}
+	]
+}
