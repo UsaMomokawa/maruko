@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/UsaMomokawa/maruko#readme",
   "dependencies": {
+    "@octokit/rest": "^18.1.0",
     "@slack/bolt": "^3.0.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1"
   }
 }
