@@ -7,7 +7,7 @@ const moment = require("moment");
 const owner = "UsaMomokawa"
 const repo = "maruko"
 const base = "main"
-const branch = "refs/heads/patch-" + moment().format("YYYYMMDDmmss")
+const branch = "patch-" + moment().format("YYYYMMDDmmss")
 const refName = `refs/heads/${branch}`
 const path = "README.md"
 
